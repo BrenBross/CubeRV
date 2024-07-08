@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="0 0 -3" width="0.25" height="0.25" depth="0.25" rotation="0 45 0" color="#7cbed7"></a-box>
+
+      <a-box position="0 0.4 -3" width="0.5" height="0.5" depth="0.5" rotation="0 45 0" color="#30778e"></a-box>
+      <a-box position="-0.3 0.4 -3" width="0.25" height="0.25" depth="0.25" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position="0.3 0.4 -3" width="0.25" height="0.25" depth="0.25" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position="0 0.4 -2.7" width="0.25" height="0.25" depth="0.25" rotation="0 45 0" color="#004b6a"></a-box>
+
+      <a-box position="0 1.2 -3" width="1" height="1" depth="1" rotation="0 45 0" color="#30778e"></a-box>
+      <a-box position="-0.6 1.2 -3" width="0.5" height="0.5" depth="0.5" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position="-.9 1.2 -3" width="0.25" height="0.25" depth="0.25" rotation="0 45 0" color="#7cbed7"></a-box>
+      <a-box position="0 1.2 -2.4" width="0.5" height="0.5" depth="0.5" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position="0 1.2 -2.1" width="0.25" height="0.25" depth="0.25" rotation="0 45 0" color="#7cbed7"></a-box>
+      <a-box position="0.6 1.2 -3" width="0.5" height="0.5" depth="0.5" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position=".9 1.2 -3" width="0.25" height="0.25" depth="0.25" rotation="0 45 0" color="#7cbed7"></a-box>
+
+
+      <a-box position="0 2.4 -3" width="1.5" height="1.5" depth="1.5" rotation="0 45 0" color="#30778e"></a-box>
+
+      <a-box position="-0.6 2.4 -3" width="1" height="1" depth="1" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position="-1.2 2.4 -3" width="0.5" height="0.5" depth="0.5" rotation="0 45 0" color="#7cbed7"></a-box>
+
+      <a-box position="0 2.4 -2.3" width="1" height="1" depth="1" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position="0 2.4 -1.8" width="0.5" height="0.5" depth="0.5" rotation="0 45 0" color="#7cbed7"></a-box>
+
+      <a-box position="0.6 2.4 -3" width="1" height="1" depth="1" rotation="0 45 0" color="#004b6a"></a-box>
+      <a-box position="1.1 2.4 -3" width="0.5" height="0.5" depth="0.5" rotation="0 45 0" color="#7cbed7"></a-box>
+
+
+      <a-plane position= "0 -1 -3" rotation= "-90 0 0" width="6" height="6" color="#000022"></a-plane>   
+      <a-plane position= "3 2 -3" rotation= "0 -90 0" width="6" height="6" color="#1b2c5e"></a-plane>
+      <a-plane position= "-3 2 -3" rotation= "0 90 0" width="6" height="6" color="#0e1640"></a-plane>     
+      <a-plane position= "0 2 -6" rotation= "0 0 90" width="6" height="6" color="#ffffff"></a-plane>  
+      <a-plane position= "0 5 -3" rotation= "90 0 0" width="6" height="6" color="#000022"></a-plane>
+      
+
+      <a-sky color="#000000"></a-sky>
+    </a-scene>
+  </body>
+</html>
